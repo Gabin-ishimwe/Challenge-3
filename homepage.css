@@ -145,17 +145,17 @@ h1 {
     border: none;  
     height: 160px;
     opacity: 1;
+    padding: 0px;
+    margin: 0px;
    
 
      
 }
 
-.section-1 {
+.leftside-1 {
      
      line-height: 50px;
-     margin-left: 10em;
-     position: relative;
-     top: -50px;
+     
      
     
      
@@ -180,19 +180,19 @@ h1 {
      
 }
 
-.section-1, .community-1 {
-     display: inline-block;
+.section-1 {
+     display: flex;
+     justify-content: space-around;
      background-color: hsl(207, 100%, 98%);
      background-size: cover;
+     align-items: center;
      
 
 }
 
 .community-1 {
      width: 300px;
-     margin-left: 5em;
-     position: relative;
-     right: -200px;
+     
 }
 
 .background-2 {
@@ -200,14 +200,14 @@ h1 {
      background-repeat: no-repeat;
      background-size: cover;
      height: 160px;
+     padding: 0px;
+     margin: 0px;
 }
 
-.section-2 {
+.leftside-2 {
      background-image: url();
      line-height: 50px;
-     margin-left: 10em;
-     position: relative;
-     top: -50px;
+     
      
 
 
@@ -229,26 +229,23 @@ h1 {
      
 }
 
-.section-2, .community-2 {
-     display: inline-block;
+.section-2{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     
 }
 
 .community-2 {
      width: 300px;
-     margin-left: 5em;
-     position: relative;
-     right: -200px;
+     
 }
 
-.section-3 {
-     background-image: url("");
+.leftside-3 {
      line-height: 50px;
-     margin-left: 10em;
-     position: relative;
-     top: -50px;
      
-
-
 }
 
 .section-h3 {
@@ -256,8 +253,6 @@ h1 {
      font-weight: 700;
      font-size: xx-large;
      
-
-
 }
 
 .section-p3 {
@@ -267,15 +262,34 @@ h1 {
      
 }
 
-.section-3, .community-3 {
-     display: inline-block;
+.section-3 {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: hsl(207, 100%, 98%);
 }
 
 .community-3 {
      width: 300px;
-     margin-left: 5em;
-     position: relative;
-     right: -200px;
+     
+}
+
+.background-3 {
+     background-image: url('./Images/bg-section-top-desktop-2.svg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 160px;
+     padding: 0px;
+     margin: 0px;
+}
+
+.background-4 {
+     background-image: url('./Images/bg-section-bottom-desktop-2.svg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 160px;
+     padding: 0px;
+     margin: 0px;
 }
 
 .bellow-header {
@@ -317,21 +331,11 @@ footer {
      display: flex;
      justify-content: space-between;
      background-color: hsl(192, 100%, 9%);
+     color: white;
+     
      
 
 }
-
-.footer-bg {
-     background-image: url('./Images/bg-footer-top-desktop.jpg');
-     background-repeat: no-repeat;
-     background-size: cover;
-     height: 160px;
-     
-     
-     
-     
-}
-     
 
 
 .footer-bg {
@@ -355,6 +359,12 @@ footer {
      font-weight: 700;
      margin-bottom: 0px;
      text-align: left;
+     color: white;
+     
+     
+}
+.footer-head-1, .message-icon {
+     display: inline;
      
      
 }
@@ -389,6 +399,7 @@ footer {
      font-weight: 700;
      font-size: x-large;
      text-align: left;
+     color: white;
 
 }
 
