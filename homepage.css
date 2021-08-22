@@ -157,6 +157,8 @@ h1 {
      position: relative;
      top: -50px;
      
+    
+     
 
 
 }
@@ -180,6 +182,8 @@ h1 {
 
 .section-1, .community-1 {
      display: inline-block;
+     background-color: hsl(207, 100%, 98%);
+     background-size: cover;
      
 
 }
@@ -189,6 +193,13 @@ h1 {
      margin-left: 5em;
      position: relative;
      right: -200px;
+}
+
+.background-2 {
+     background-image: url(./Images/bg-section-bottom-desktop-1.svg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 160px;
 }
 
 .section-2 {
@@ -311,11 +322,13 @@ footer {
 }
 
 .footer-bg {
-     background-image: url('./Images/bg-footer-top-desktop.svg');
+     background-image: url('./Images/bg-footer-top-desktop.jpg');
      background-repeat: no-repeat;
-     background-size: 100% 100%;
-     height: 100%;
-     padding: 2rem;
+     background-size: 100%;
+     height: 160px;
+     
+     
+     
      
 }
      
@@ -329,7 +342,10 @@ footer {
 .footer-head-1 {
      font-size: x-large;
      font-family: 'Open Sans', sans-serif;
+     font-weight: 700;
      margin-bottom: 0px;
+     text-align: left;
+     
      
 }
 
@@ -359,7 +375,9 @@ footer {
 
 .footer-head-2 {
      font-family: 'Open Sans', sans-serif;
-     font-weight: 800;
+     font-weight: 700;
+     font-size: x-large;
+     text-align: left;
 
 }
 
